@@ -25,6 +25,7 @@ typedef NS_ENUM(NSUInteger, MASAxisType) {
  *
  *  @return Array of created MASConstraints
  */
+
 - (NSArray *)mas_makeConstraints:(void (NS_NOESCAPE ^)(MASConstraintMaker *make))block;
 
 /**
